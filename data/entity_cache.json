@@ -1,0 +1,22 @@
+{
+  "sunil joshan": {
+    "uri": "http://example.org/person/PERSON_Sunil_Joshan",
+    "type": ""
+  },
+  "agra": {
+    "uri": "http://example.org/location/GPE_Agra",
+    "type": ""
+  },
+  "india": {
+    "uri": "http://example.org/location/GPE_India",
+    "type": ""
+  },
+  "four decades": {
+    "uri": "http://example.org/date/DATE_four_decades",
+    "type": ""
+  },
+  "1981": {
+    "uri": "http://example.org/date/DATE_1981",
+    "type": ""
+  }
+}

@@ -1,0 +1,372 @@
+@prefix ex: <http://example.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+
+<http://example.org/organization/ORG_Computer_Science> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "Computer Science" ;
+    schema1:name "Computer Science" .
+
+<http://example.org/organization/ORG_Instagram> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "Instagram" ;
+    schema1:name "Instagram" .
+
+<http://example.org/organization/ORG_Interested> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "Interested" ;
+    schema1:name "Interested" .
+
+<http://example.org/concept/PRODUCT_JavaScript> a ex:PRODUCT ;
+    rdfs:label "JavaScript" ;
+    ex:related_to <http://example.org/organization/ORG_CMS>,
+        <http://example.org/organization/ORG_WordPress> .
+
+<http://example.org/date/DATE_1981> a ex:DATE ;
+    rdfs:label "1981" ;
+    ex:found <http://example.org/person/PERSON_Sunil_Joshan> ;
+    ex:related_to <http://example.org/organization/ORG_Foot_On_Shoes> .
+
+<http://example.org/organization/ORG_Blacktulip> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "Blacktulip" ;
+    ex:seek_join <http://example.org/organization/ORG_Digital_Marketing_Specialist>,
+        <http://example.org/organization/ORG_Web_Developer> ;
+    schema1:name "Blacktulip" .
+
+<http://example.org/organization/ORG_Google_Analytics> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "Google Analytics" ;
+    ex:related_to <http://example.org/location/GPE_Moz>,
+        <http://example.org/organization/ORG_Google> ;
+    schema1:name "Google Analytics" .
+
+<http://example.org/person/PERSON_Sumit_Joshan> a ex:PERSON,
+        foaf:Person ;
+    rdfs:label "Sumit Joshan" ;
+    ex:cement_lead <http://example.org/concept/NORP_European>,
+        <http://example.org/concept/NORP_North_American> ;
+    foaf:name "Sumit Joshan" .
+
+<http://example.org/concept/NORP_European> a ex:NORP ;
+    rdfs:label "European" ;
+    ex:related_to <http://example.org/concept/NORP_North_American> .
+
+<http://example.org/date/DATE_four_decades> a ex:DATE ;
+    rdfs:label "four decades" ;
+    ex:related_to <http://example.org/location/GPE_Agra>,
+        <http://example.org/location/GPE_India>,
+        <http://example.org/organization/ORG_Foot_On_Shoes> .
+
+<http://example.org/location/GPE_Moz> a ex:GPE,
+        schema1:Place ;
+    rdfs:label "Moz" ;
+    ex:related_to <http://example.org/organization/ORG_Google> ;
+    schema1:name "Moz" .
+
+<http://example.org/organization/ORG_CMS> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "CMS" ;
+    ex:related_to <http://example.org/organization/ORG_WordPress> ;
+    schema1:name "CMS" .
+
+<http://example.org/organization/ORG_First_Choice> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "First Choice" ;
+    ex:deliver <http://example.org/organization/ORG_Smart_Factory> ;
+    ex:deliver_foster <http://example.org/organization/ORG_Trust__Transparency> ;
+    ex:related_to <http://example.org/organization/ORG_Global_Brands> ;
+    schema1:name "First Choice" .
+
+<http://example.org/organization/ORG_Retail_Brand_Division> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "Retail Brand Division" ;
+    ex:found <http://example.org/organization/ORG_Sonam>,
+        <http://example.org/person/PERSON_Emily> ;
+    ex:related_to <http://example.org/organization/ORG_D2C> ;
+    schema1:name "Retail Brand Division" .
+
+<http://example.org/organization/ORG_Web_Developer> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "Web Developer" ;
+    ex:related_to <http://example.org/organization/ORG_Digital_Marketing_Specialist> ;
+    schema1:name "Web Developer" .
+
+<http://example.org/concept/NORP_North_American> a ex:NORP ;
+    rdfs:label "North American" .
+
+<http://example.org/organization/ORG_D2C> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "D2C" ;
+    ex:found <http://example.org/organization/ORG_Sonam>,
+        <http://example.org/person/PERSON_Emily> ;
+    schema1:name "D2C" .
+
+<http://example.org/organization/ORG_Digital_Marketing_Specialist> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "Digital Marketing Specialist" ;
+    schema1:name "Digital Marketing Specialist" .
+
+<http://example.org/organization/ORG_Global_Brands> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "Global Brands" ;
+    ex:deliver <http://example.org/organization/ORG_Smart_Factory> ;
+    ex:deliver_foster <http://example.org/organization/ORG_Trust__Transparency> ;
+    schema1:name "Global Brands" .
+
+<http://example.org/organization/ORG_Google> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "Google" ;
+    schema1:name "Google" .
+
+<http://example.org/organization/ORG_WordPress> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "WordPress" ;
+    schema1:name "WordPress" .
+
+<http://example.org/person/PERSON_Sunil_Joshan> a ex:PERSON,
+        foaf:Person ;
+    rdfs:label "Sunil Joshan" ;
+    foaf:name "Sunil Joshan" .
+
+<http://example.org/location/GPE_Agra> a ex:GPE,
+        schema1:Place ;
+    rdfs:label "Agra" ;
+    ex:related_to <http://example.org/location/GPE_India> ;
+    schema1:name "Agra" .
+
+<http://example.org/organization/ORG_Smart_Factory> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "Smart Factory" ;
+    ex:foster <http://example.org/organization/ORG_Trust__Transparency> ;
+    schema1:name "Smart Factory" .
+
+<http://example.org/organization/ORG_Sonam> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "Sonam" ;
+    ex:related_to <http://example.org/person/PERSON_Emily> ;
+    schema1:name "Sonam" .
+
+<http://example.org/location/GPE_India> a ex:GPE,
+        schema1:Place ;
+    rdfs:label "India" ;
+    schema1:name "India" .
+
+<http://example.org/organization/ORG_Trust__Transparency> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "Trust  Transparency" ;
+    schema1:name "Trust  Transparency" .
+
+<http://example.org/person/PERSON_Emily> a ex:PERSON,
+        foaf:Person ;
+    rdfs:label "Emily" ;
+    foaf:name "Emily" .
+
+<http://example.org/organization/ORG_Foot_On_Shoes> a ex:ORG,
+        schema1:Organization ;
+    rdfs:label "Foot On Shoes" ;
+    ex:found <http://example.org/person/PERSON_Sunil_Joshan> ;
+    ex:related_to <http://example.org/location/GPE_Agra>,
+        <http://example.org/location/GPE_India> ;
+    schema1:name "Foot On Shoes" .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/person/PERSON_Sunil_Joshan> ;
+    rdf:predicate ex:found ;
+    rdf:subject <http://example.org/organization/ORG_Foot_On_Shoes> ;
+    rdfs:comment " ABOUT: In 1981, Foot On Shoes was founded by Mr RP Joshan and Mr Sunil Joshan." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_Digital_Marketing_Specialist> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/organization/ORG_Web_Developer> ;
+    rdfs:comment "Role outline: Blacktulip is seeking highly skilled and motivated individual to join our team as a Web Developer, SEO Specialist, and Digital Marketing Specialist." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_Trust__Transparency> ;
+    rdf:predicate ex:deliver_foster ;
+    rdf:subject <http://example.org/organization/ORG_Global_Brands> ;
+    rdfs:comment "First Choice for women footwear to top Global Brands, delivered through Smart Factory that fosters Trust  Transparency." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_D2C> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/organization/ORG_Retail_Brand_Division> ;
+    rdfs:comment "Retail Brand Division: Black Tulip is a D2C platform founded by Sonam and Emily, to offer a characterful alternative to the current landscape with the aim of making seasonless luxury collections." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_Digital_Marketing_Specialist> ;
+    rdf:predicate ex:seek_join ;
+    rdf:subject <http://example.org/organization/ORG_Blacktulip> ;
+    rdfs:comment "Role outline: Blacktulip is seeking highly skilled and motivated individual to join our team as a Web Developer, SEO Specialist, and Digital Marketing Specialist." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/concept/NORP_North_American> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/concept/NORP_European> ;
+    rdfs:comment "Under the leadership of Mr. Sumit Joshan, Managing Director, the company has further cemented its position as a leading supplier of womens shoes across European, North American and other global markets." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_Trust__Transparency> ;
+    rdf:predicate ex:deliver_foster ;
+    rdf:subject <http://example.org/organization/ORG_First_Choice> ;
+    rdfs:comment "First Choice for women footwear to top Global Brands, delivered through Smart Factory that fosters Trust  Transparency." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_Google> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/location/GPE_Moz> ;
+    rdfs:comment "Familiarity with SEO tools (e.g., Google Analytics, SEMrush, Moz) and digital marketing platforms (e.g., Google Ads, Facebook Ads).  " .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_WordPress> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/concept/PRODUCT_JavaScript> ;
+    rdfs:comment "Proficiency in programming languages such as HTML, CSS, JavaScript, and knowledge of CMS platforms (e.g., WordPress).  " .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/location/GPE_Agra> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/date/DATE_four_decades> ;
+    rdfs:comment "A family owned business of over four decades, Foot On Shoes is among the top manufacturers of premium women footwear in Agra, India." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_Trust__Transparency> ;
+    rdf:predicate ex:foster ;
+    rdf:subject <http://example.org/organization/ORG_Smart_Factory> ;
+    rdfs:comment "First Choice for women footwear to top Global Brands, delivered through Smart Factory that fosters Trust  Transparency." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_Foot_On_Shoes> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/date/DATE_four_decades> ;
+    rdfs:comment "A family owned business of over four decades, Foot On Shoes is among the top manufacturers of premium women footwear in Agra, India." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/concept/NORP_North_American> ;
+    rdf:predicate ex:cement_lead ;
+    rdf:subject <http://example.org/person/PERSON_Sumit_Joshan> ;
+    rdfs:comment "Under the leadership of Mr. Sumit Joshan, Managing Director, the company has further cemented its position as a leading supplier of womens shoes across European, North American and other global markets." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/location/GPE_India> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/location/GPE_Agra> ;
+    rdfs:comment "A family owned business of over four decades, Foot On Shoes is among the top manufacturers of premium women footwear in Agra, India." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/location/GPE_India> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/date/DATE_four_decades> ;
+    rdfs:comment "A family owned business of over four decades, Foot On Shoes is among the top manufacturers of premium women footwear in Agra, India." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/concept/NORP_European> ;
+    rdf:predicate ex:cement_lead ;
+    rdf:subject <http://example.org/person/PERSON_Sumit_Joshan> ;
+    rdfs:comment "Under the leadership of Mr. Sumit Joshan, Managing Director, the company has further cemented its position as a leading supplier of womens shoes across European, North American and other global markets." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/location/GPE_India> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/organization/ORG_Foot_On_Shoes> ;
+    rdfs:comment "A family owned business of over four decades, Foot On Shoes is among the top manufacturers of premium women footwear in Agra, India." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_Global_Brands> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/organization/ORG_First_Choice> ;
+    rdfs:comment "First Choice for women footwear to top Global Brands, delivered through Smart Factory that fosters Trust  Transparency." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_Smart_Factory> ;
+    rdf:predicate ex:deliver ;
+    rdf:subject <http://example.org/organization/ORG_First_Choice> ;
+    rdfs:comment "First Choice for women footwear to top Global Brands, delivered through Smart Factory that fosters Trust  Transparency." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_Sonam> ;
+    rdf:predicate ex:found ;
+    rdf:subject <http://example.org/organization/ORG_D2C> ;
+    rdfs:comment "Retail Brand Division: Black Tulip is a D2C platform founded by Sonam and Emily, to offer a characterful alternative to the current landscape with the aim of making seasonless luxury collections." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_CMS> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/concept/PRODUCT_JavaScript> ;
+    rdfs:comment "Proficiency in programming languages such as HTML, CSS, JavaScript, and knowledge of CMS platforms (e.g., WordPress).  " .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/location/GPE_Moz> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/organization/ORG_Google_Analytics> ;
+    rdfs:comment "Familiarity with SEO tools (e.g., Google Analytics, SEMrush, Moz) and digital marketing platforms (e.g., Google Ads, Facebook Ads).  " .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/person/PERSON_Emily> ;
+    rdf:predicate ex:found ;
+    rdf:subject <http://example.org/organization/ORG_Retail_Brand_Division> ;
+    rdfs:comment "Retail Brand Division: Black Tulip is a D2C platform founded by Sonam and Emily, to offer a characterful alternative to the current landscape with the aim of making seasonless luxury collections." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_Smart_Factory> ;
+    rdf:predicate ex:deliver ;
+    rdf:subject <http://example.org/organization/ORG_Global_Brands> ;
+    rdfs:comment "First Choice for women footwear to top Global Brands, delivered through Smart Factory that fosters Trust  Transparency." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/person/PERSON_Emily> ;
+    rdf:predicate ex:found ;
+    rdf:subject <http://example.org/organization/ORG_D2C> ;
+    rdfs:comment "Retail Brand Division: Black Tulip is a D2C platform founded by Sonam and Emily, to offer a characterful alternative to the current landscape with the aim of making seasonless luxury collections." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_Google> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/organization/ORG_Google_Analytics> ;
+    rdfs:comment "Familiarity with SEO tools (e.g., Google Analytics, SEMrush, Moz) and digital marketing platforms (e.g., Google Ads, Facebook Ads).  " .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/person/PERSON_Emily> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/organization/ORG_Sonam> ;
+    rdfs:comment "Retail Brand Division: Black Tulip is a D2C platform founded by Sonam and Emily, to offer a characterful alternative to the current landscape with the aim of making seasonless luxury collections." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/location/GPE_Agra> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/organization/ORG_Foot_On_Shoes> ;
+    rdfs:comment "A family owned business of over four decades, Foot On Shoes is among the top manufacturers of premium women footwear in Agra, India." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/person/PERSON_Sunil_Joshan> ;
+    rdf:predicate ex:found ;
+    rdf:subject <http://example.org/date/DATE_1981> ;
+    rdfs:comment " ABOUT: In 1981, Foot On Shoes was founded by Mr RP Joshan and Mr Sunil Joshan." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_WordPress> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/organization/ORG_CMS> ;
+    rdfs:comment "Proficiency in programming languages such as HTML, CSS, JavaScript, and knowledge of CMS platforms (e.g., WordPress).  " .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_Foot_On_Shoes> ;
+    rdf:predicate ex:related_to ;
+    rdf:subject <http://example.org/date/DATE_1981> ;
+    rdfs:comment " ABOUT: In 1981, Foot On Shoes was founded by Mr RP Joshan and Mr Sunil Joshan." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_Web_Developer> ;
+    rdf:predicate ex:seek_join ;
+    rdf:subject <http://example.org/organization/ORG_Blacktulip> ;
+    rdfs:comment "Role outline: Blacktulip is seeking highly skilled and motivated individual to join our team as a Web Developer, SEO Specialist, and Digital Marketing Specialist." .
+
+[] a rdf:Statement ;
+    rdf:object <http://example.org/organization/ORG_Sonam> ;
+    rdf:predicate ex:found ;
+    rdf:subject <http://example.org/organization/ORG_Retail_Brand_Division> ;
+    rdfs:comment "Retail Brand Division: Black Tulip is a D2C platform founded by Sonam and Emily, to offer a characterful alternative to the current landscape with the aim of making seasonless luxury collections." .
+

@@ -1,6 +1,7 @@
 # from SPARQLWrapper import SPARQLWrapper, JSON
 from nl_query_processor import NLQueryProcessor
 from kg_store import KnowledgeGraphStore
+from generate_llm import answer_from_kgllm
 
 class QueryEngine:
     def __init__(self, fuseki_url="http://localhost:3030", dataset="kg"):
@@ -95,6 +96,9 @@ if __name__ == "__main__":
         print(f"Question: {results['question']}")
         print(f"Explanation: {results['explanation']}")
         print("Results:")
-        for item in results['results']:
-            print(f"  {item}")
+
+        print(answer_from_kgllm(question,results["results"]))
+
+        # for item in results['results']:
+        #     print(f"  {item}")
         print("-" * 50)

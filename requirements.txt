@@ -12,3 +12,6 @@ sentence-transformers==2.2.2
 Flask==2.3.2
 ontospy
 huggingface_hub==0.11.1
+langchain_groq
+langchain_core
+dotenv

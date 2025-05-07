@@ -2,7 +2,8 @@ import os
 import re
 import json
 import spacy
-# from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, util
+from rdflib import Graph
 # import numpy as np
 # from collections import defaultdict
 
@@ -13,19 +14,25 @@ class NLQueryProcessor:
 
         if entity_cache_file is None:
             entity_cache_file = os.path.join(base_dir, "data/entity_cache.json")
+        
+        self.graph = Graph()
+        ttl_path = os.path.join(base_dir, "data/knowledge_graphs/knowledge_graph.ttl")
+        self.graph.parse(ttl_path, format="ttl")
 
         # Load language models
         self.nlp = spacy.load("en_core_web_lg")
         
         # Load sentence transformer model for semantic similarity
-        # try:
-        #     self.sentence_model = SentenceTransformer('all-MiniLM-L6-v2')
-        # except:
-        #     # If error, download the model
-        #     print("Downloading sentence-transformers model...")
-        #     os.system("pip install sentence-transformers")
-        #     self.sentence_model = SentenceTransformer('all-MiniLM-L6-v2')
+        try:
+            self.sentence_model = SentenceTransformer('all-MiniLM-L6-v2')
+        except:
+            print("Error loading sentece transformer")
+            return 
         
+        self.kg_labels = [str(o) for s, p, o in self.graph.triples((None, None, None)) if isinstance(o, str)]
+        # print(self.kg_labels)
+        self.kg_label_embeddings = self.sentence_model.encode(self.kg_labels, convert_to_tensor=True)
+
         # Template SPARQL queries
         self.query_templates = {
             "find_entity": """
@@ -109,6 +116,12 @@ class NLQueryProcessor:
         with open(cache_file, 'w') as f:
             json.dump(self.entity_cache, f, indent=2)
     
+    
+    def get_similar_kg_label(self, query_text, top_k=1):
+        query_embedding = self.sentence_model.encode(query_text, convert_to_tensor=True)
+        hits = util.semantic_search(query_embedding, self.kg_label_embeddings, top_k=top_k)[0]
+        return [self.kg_labels[hit['corpus_id']] for hit in hits]
+
     def extract_question_type(self, question):
         """Determine the type of question being asked"""
         question_lower = question.lower()
@@ -145,6 +158,8 @@ class NLQueryProcessor:
         doc = self.nlp(question)
         entities = [ent.text for ent in doc.ents]
         
+        # print("entities" , entities)
+
         if entities:
             return "entity_related", entities[0]
         
@@ -157,22 +172,26 @@ class NLQueryProcessor:
         
         # Extract question type and target
         q_type, target = self.extract_question_type(question)
-        
+        # print("qtype", q_type , "target", target)
+
         # Generate SPARQL query based on question type
         if q_type == "relation" and isinstance(target, tuple) and len(target) == 2:
-            entity1, entity2 = target
-            return self.query_templates["find_relation_between"].format(entity1, entity2)
+            entity1_sim = self.get_similar_kg_label(target[0])[0]
+            entity2_sim = self.get_similar_kg_label(target[1])[0]
+            return self.query_templates["find_relation_between"].format(entity1_sim, entity2_sim)
         
         elif q_type == "attribute" and target:
-            return self.query_templates["entity_attributes"].format(target)
+            entity_sim = self.get_similar_kg_label(target)[0]
+            return self.query_templates["entity_attributes"].format(entity_sim)
         
         elif q_type == "entity_related" and target:
-            return self.query_templates["entity_related"].format(target, target)
+            entity_sim = self.get_similar_kg_label(target)[0]
+            return self.query_templates["entity_related"].format(entity_sim, entity_sim)
         
         else:
             # Extract all named entities from question
             entities = [ent.text for ent in doc.ents]
-            
+            print("Entities in the question : ",entities)
             if entities:
                 return self.query_templates["find_entity"].format(entities[0])
             else:
@@ -203,10 +222,7 @@ if __name__ == "__main__":
     
     # Test with some example questions
     test_questions = [
-        "What is the relationship between Apple and Microsoft?",
-        "Who is Tim Cook?",
-        "What companies are in the technology sector?",
-        "How is Amazon related to e-commerce?"
+        "what is relation between shimla and solan?"
     ]
     
     for question in test_questions:

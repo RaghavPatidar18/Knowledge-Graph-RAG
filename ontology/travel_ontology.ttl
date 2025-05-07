@@ -1,0 +1,189 @@
+@prefix ex: <http://example.org/travel#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Accommodation a rdfs:Class ;
+    rdfs:label "Accommodation" ;
+    rdfs:comment "A place where travelers stay during a trip." .
+
+ex:Attraction a rdfs:Class ;
+    rdfs:label "Attraction" ;
+    rdfs:comment "A point of interest at a destination." .
+
+ex:Booking a rdfs:Class ;
+    rdfs:label "Booking" ;
+    rdfs:comment "A reservation made by the traveler." .
+
+ex:Destination a rdfs:Class ;
+    rdfs:label "Destination" ;
+    rdfs:comment "The location where a traveler intends to go." .
+
+ex:Expense a rdfs:Class ;
+    rdfs:label "Expense" ;
+    rdfs:comment "Costs incurred during a trip." .
+
+ex:Review a rdfs:Class ;
+    rdfs:label "Review" ;
+    rdfs:comment "Feedback provided by a traveler." .
+
+ex:Transport a rdfs:Class ;
+    rdfs:label "Transport" ;
+    rdfs:comment "A means of travel such as a car, flight, or train." .
+
+ex:TravelDocument a rdfs:Class ;
+    rdfs:label "Travel Document" ;
+    rdfs:comment "Documents like passport or visa." .
+
+ex:Traveler a rdfs:Class ;
+    rdfs:label "Traveler" ;
+    rdfs:comment "A person who undertakes a journey." .
+
+ex:Trip a rdfs:Class ;
+    rdfs:label "Trip" ;
+    rdfs:comment "A journey undertaken by a traveler." .
+
+ex:Weather a rdfs:Class ;
+    rdfs:label "Weather" ;
+    rdfs:comment "Weather conditions at a destination." .
+
+ex:booksAccommodation a rdf:Property ;
+    rdfs:label "booksAccommodation" ;
+    rdfs:comment "Indicates an accommodation booked." ;
+    rdfs:domain ex:Booking ;
+    rdfs:range ex:Accommodation .
+
+ex:booksTransport a rdf:Property ;
+    rdfs:label "booksTransport" ;
+    rdfs:comment "Indicates transport that has been booked." ;
+    rdfs:domain ex:Booking ;
+    rdfs:range ex:Transport .
+
+ex:comment a rdf:Property ;
+    rdfs:label "comment" ;
+    rdfs:comment "Comment or feedback content." ;
+    rdfs:domain ex:Review ;
+    rdfs:range xsd:string .
+
+ex:documentType a rdf:Property ;
+    rdfs:domain ex:TravelDocument ;
+    rdfs:range xsd:string .
+
+ex:endDate a rdf:Property ;
+    rdfs:label "endDate" ;
+    rdfs:comment "End date of a trip." ;
+    rdfs:domain ex:Trip ;
+    rdfs:range xsd:date .
+
+ex:hasAccommodation a rdf:Property ;
+    rdfs:label "hasAccommodation" ;
+    rdfs:comment "Links a trip to the accommodation." ;
+    rdfs:domain ex:Trip ;
+    rdfs:range ex:Accommodation .
+
+ex:hasBooking a rdf:Property ;
+    rdfs:label "hasBooking" ;
+    rdfs:comment "Connects a traveler with their bookings." ;
+    rdfs:domain ex:Traveler ;
+    rdfs:range ex:Booking .
+
+ex:hasDestination a rdf:Property ;
+    rdfs:label "hasDestination" ;
+    rdfs:comment "Indicates the destination of a trip." ;
+    rdfs:domain ex:Trip ;
+    rdfs:range ex:Destination .
+
+ex:hasTravelDocument a rdf:Property ;
+    rdfs:label "hasTravelDocument" ;
+    rdfs:comment "Associates a traveler with their documents." ;
+    rdfs:domain ex:Traveler ;
+    rdfs:range ex:TravelDocument .
+
+ex:hasTrip a rdf:Property ;
+    rdfs:label "hasTrip" ;
+    rdfs:comment "Links a traveler to their trip." ;
+    rdfs:domain ex:Traveler ;
+    rdfs:range ex:Trip .
+
+ex:hasWeather a rdf:Property ;
+    rdfs:label "hasWeather" ;
+    rdfs:comment "Weather conditions at the destination." ;
+    rdfs:domain ex:Destination ;
+    rdfs:range ex:Weather .
+
+ex:incursExpense a rdf:Property ;
+    rdfs:label "incursExpense" ;
+    rdfs:comment "Expenses recorded during the trip." ;
+    rdfs:domain ex:Trip ;
+    rdfs:range ex:Expense .
+
+ex:location a rdf:Property ;
+    rdfs:label "location" ;
+    rdfs:comment "The geographical location of a destination." ;
+    rdfs:domain ex:Destination ;
+    rdfs:range xsd:string .
+
+ex:name a rdf:Property ;
+    rdfs:label "name" ;
+    rdfs:comment "The name of an entity." ;
+    rdfs:range xsd:string .
+
+ex:price a rdf:Property ;
+    rdfs:label "price" ;
+    rdfs:comment "Price or cost associated with a booking." ;
+    rdfs:domain ex:Booking ;
+    rdfs:range xsd:float .
+
+ex:rating a rdf:Property ;
+    rdfs:label "rating" ;
+    rdfs:comment "Rating given in a review." ;
+    rdfs:domain ex:Review ;
+    rdfs:range xsd:float .
+
+ex:reviewOf a rdf:Property ;
+    rdfs:label "reviewOf" ;
+    rdfs:comment "Links a review to the attraction it refers to." ;
+    rdfs:domain ex:Review ;
+    rdfs:range ex:Attraction .
+
+ex:reviews a rdf:Property ;
+    rdfs:label "reviews" ;
+    rdfs:comment "Links a traveler to a review they have written." ;
+    rdfs:domain ex:Traveler ;
+    rdfs:range ex:Review .
+
+ex:startDate a rdf:Property ;
+    rdfs:label "startDate" ;
+    rdfs:comment "Start date of a trip." ;
+    rdfs:domain ex:Trip ;
+    rdfs:range xsd:date .
+
+ex:temperature a rdf:Property ;
+    rdfs:label "temperature" ;
+    rdfs:comment "Temperature at the destination." ;
+    rdfs:domain ex:Weather ;
+    rdfs:range xsd:float .
+
+ex:transportType a rdf:Property ;
+    rdfs:label "transportType" ;
+    rdfs:comment "Type of transport used." ;
+    rdfs:domain ex:Transport ;
+    rdfs:range xsd:string .
+
+ex:usesTransport a rdf:Property ;
+    rdfs:label "usesTransport" ;
+    rdfs:comment "Indicates the transport used in a trip." ;
+    rdfs:domain ex:Trip ;
+    rdfs:range ex:Transport .
+
+ex:visitsAttraction a rdf:Property ;
+    rdfs:label "visitsAttraction" ;
+    rdfs:comment "Attractions visited by the traveler." ;
+    rdfs:domain ex:Traveler ;
+    rdfs:range ex:Attraction .
+
+ex:weatherCondition a rdf:Property ;
+    rdfs:label "weatherCondition" ;
+    rdfs:comment "Description of the weather." ;
+    rdfs:domain ex:Weather ;
+    rdfs:range xsd:string .

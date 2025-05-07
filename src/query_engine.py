@@ -13,10 +13,11 @@ class QueryEngine:
         query_type, target = self.nl_processor.extract_question_type(question)
         sparql_query = self.nl_processor.nl_to_sparql(question)
         explanation = self.nl_processor.query_explanation(query_type, target)
-        
+        print("Query : " , sparql_query)
         # Execute SPARQL query
         results = self.kg_store.run_query(sparql_query)
         
+        # print("result:: ",results)
         # Format results
         formatted_results = self.format_results(results, query_type)
         
@@ -85,7 +86,7 @@ if __name__ == "__main__":
     
     # Test with some example questions
     test_questions = [
-        "Foot On Shoes was founded by who?"
+        "What are the various adventure activities ?"
     ]
     
     for question in test_questions:

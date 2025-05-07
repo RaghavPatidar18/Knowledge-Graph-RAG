@@ -16,24 +16,24 @@ class KnowledgeGraphBuilder:
         # Bind namespaces
         self.g.bind("ex", self.ex)
         self.g.bind("schema", self.schema)
-        self.g.bind("foaf", FOAF)
+        
     
     def create_uri_for_entity(self, entity_id, entity_type):
         """Create a URI for an entity based on its ID and type"""
         # Clean the entity ID to ensure valid URI
         clean_id = entity_id.replace(" ", "_").replace(",", "").replace(".", "")
-        
+        return self.ex[entity_type+"/"+clean_id]
         # Map entity types to namespaces
-        if entity_type in ["PERSON", "PER"]:
-            return self.ex["person/" + clean_id]
-        elif entity_type in ["ORG", "ORGANIZATION"]:
-            return self.ex["organization/" + clean_id]
-        elif entity_type in ["LOC", "GPE", "LOCATION"]:
-            return self.ex["location/" + clean_id]
-        elif entity_type in ["DATE", "TIME"]:
-            return self.ex["date/" + clean_id]
-        else:
-            return self.ex["concept/" + clean_id]
+        # if entity_type in ["PERSON", "PER"]:
+        #     return self.ex["person/" + clean_id]
+        # elif entity_type in ["ORG", "ORGANIZATION"]:
+        #     return self.ex["organization/" + clean_id]
+        # elif entity_type in ["LOC", "GPE", "LOCATION"]:
+        #     return self.ex["location/" + clean_id]
+        # elif entity_type in ["DATE", "TIME"]:
+        #     return self.ex["date/" + clean_id]
+        # else:
+        #     return self.ex["concept/" + clean_id]
     
     def build_from_extracted_data(self, knowledge_data=None):
         """Build knowledge graph from extracted data"""
@@ -57,18 +57,7 @@ class KnowledgeGraphBuilder:
             # Add entity to graph
             self.g.add((entity_uri, RDF.type, self.ex[entity_type]))
             self.g.add((entity_uri, RDFS.label, Literal(entity_text)))
-            
-            # Add additional properties based on entity type
-            if entity_type in ["PERSON", "PER"]:
-                self.g.add((entity_uri, RDF.type, FOAF.Person))
-                self.g.add((entity_uri, FOAF.name, Literal(entity_text)))
-            elif entity_type in ["ORG", "ORGANIZATION"]:
-                self.g.add((entity_uri, RDF.type, self.schema.Organization))
-                self.g.add((entity_uri, self.schema.name, Literal(entity_text)))
-            elif entity_type in ["LOC", "GPE", "LOCATION"]:
-                self.g.add((entity_uri, RDF.type, self.schema.Place))
-                self.g.add((entity_uri, self.schema.name, Literal(entity_text)))
-        
+        # print(entity_uris)
         # Add relations to graph
         for relation in knowledge_data["relations"]:
             source_id = relation["source"]
@@ -93,9 +82,8 @@ class KnowledgeGraphBuilder:
                     self.g.add((stmt_node, RDF.predicate, relation_uri))
                     self.g.add((stmt_node, RDF.object, target_uri))
                     self.g.add((stmt_node, RDFS.comment, Literal(relation["sentence"])))
-                    # stmt = (source_uri, relation_uri, target_uri)
-                    # self.g.add((stmt, RDFS.comment, Literal(relation["sentence"])))
-        print("Graph is like :->>>>>>>",self.g)
+                    
+        # print("Graph is like :->>>>>>>",self.g)
         print(f"Created knowledge graph with {len(self.g)} triples")
         return self.g
     

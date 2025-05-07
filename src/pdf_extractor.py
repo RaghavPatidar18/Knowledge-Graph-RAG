@@ -1,13 +1,23 @@
 import os
 import json
-import fitz  # PyMuPDF
+import fitz  
 import spacy
-from collections import defaultdict
 import re
+from rdflib import Graph, Namespace
+from sentence_transformers import SentenceTransformer, util
+
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) 
 
 class PDFKnowledgeExtractor:
     def __init__(self, models_dir="models"):
         # Load SpaCy model for NER (Named Entity Recognition)
+
+        try:
+            self.model = SentenceTransformer('all-MiniLM-L6-v2')
+        except:
+            print("Error while loading sentence transformer")
+            return
+
         try:
             self.nlp = spacy.load("en_core_web_lg")
         except:
@@ -16,6 +26,37 @@ class PDFKnowledgeExtractor:
             os.system("python -m spacy download en_core_web_lg")
             self.nlp = spacy.load("en_core_web_lg")
     
+    def load_known_relations(ontology_path=None):
+
+        ontology_path = os.path.join(base_dir, "ontology/travel_ontology.ttl")
+        g = Graph()
+        g.parse(ontology_path, format="turtle")
+
+        known_relations = set()
+        for s, p, o in g.triples((None, None, None)):
+            if str(p).endswith("domain"):  
+                relation = str(s).split('#')[-1]  # Get property name
+                known_relations.add(relation)
+        print(known_relations)
+        return known_relations
+
+    def find_closest_relation(self, relation_candidate, known_relations, threshold=0.3):
+        candidate_embedding = self.model.encode(relation_candidate, convert_to_tensor=True)
+        best_match = None
+        highest_score = 0
+
+        for rel in known_relations:
+            rel_embedding = self.model.encode(rel, convert_to_tensor=True)
+            similarity = util.pytorch_cos_sim(candidate_embedding, rel_embedding).item()
+
+            if similarity > highest_score:
+                best_match = rel
+                highest_score = similarity
+
+        if highest_score >= threshold:
+            return best_match, highest_score
+        return None, highest_score
+
     def extract_text_from_pdf(self, pdf_path):
         """Extract text from PDF file"""
         text = ""
@@ -43,6 +84,9 @@ class PDFKnowledgeExtractor:
         # Process with SpaCy
         doc = self.nlp(text)
         
+        # Get ontology relations
+        known_relations = self.load_known_relations()
+
         # Extract entities
         entities = {}
         for ent in doc.ents:
@@ -72,15 +116,21 @@ class PDFKnowledgeExtractor:
                         if verbs:
                             relation_type = "_".join(verbs)
                         
-                        entity1_id = f"{entity1.label_}_{entity1.text.replace(' ', '_')}"
-                        entity2_id = f"{entity2.label_}_{entity2.text.replace(' ', '_')}"
+                        match, score = self.find_closest_relation(relation_type, known_relations)
+                        if match:
+                            relation_type = match
+                            entity1_id = f"{entity1.label_}_{entity1.text.replace(' ', '_')}"
+                            entity2_id = f"{entity2.label_}_{entity2.text.replace(' ', '_')}"
+                            
+                            relations.append({
+                                "source": entity1_id,
+                                "target": entity2_id,
+                                "type": relation_type,
+                                "sentence": sent.text
+                            })
+                        else :
+                            print(f"Unknown relation: {relation_type} (score: {score:.2f})")
                         
-                        relations.append({
-                            "source": entity1_id,
-                            "target": entity2_id,
-                            "type": relation_type,
-                            "sentence": sent.text
-                        })
         
         return {
             "entities": entities,
@@ -123,8 +173,6 @@ class PDFKnowledgeExtractor:
             "relations": []
         }
         
-        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  
-        # print(base_dir)
         if pdf_dir is None:
             pdf_dir = os.path.join(base_dir, "data/pdfs")
         if output_dir is None:
@@ -150,6 +198,8 @@ class PDFKnowledgeExtractor:
 
 if __name__ == "__main__":
     extractor = PDFKnowledgeExtractor()
+
+    # extractor.load_known_relations()
     
     # Process a single PDF
     # extractor.process_pdf("data/pdfs/example.pdf")

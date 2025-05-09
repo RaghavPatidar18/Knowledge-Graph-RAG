@@ -12,9 +12,6 @@ base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 class NLQueryProcessor:
     def __init__(self, entity_cache_file=None):
-
-        if entity_cache_file is None:
-            entity_cache_file = os.path.join(base_dir, "data/entity_cache.json")
         
         self.graph = Graph()
         ttl_path = os.path.join(base_dir, "data/knowledge_graphs/knowledge_graph.ttl")
@@ -99,37 +96,10 @@ class NLQueryProcessor:
             """
         }
         
-        # Load entity cache
-        self.entity_cache = {}
-        if os.path.exists(entity_cache_file):
-            with open(entity_cache_file, 'r') as f:
-                self.entity_cache = json.load(f)
 
     def get_label(self,graph, node):
         label = graph.value(node, RDFS.label)
         return str(label) if label else ""
-
-    def update_entity_cache(self, entities, cache_file=None):
-        """Update the entity cache with new entities"""
-
-        if cache_file is None:
-            cache_file = os.path.join(base_dir, "data/entity_cache.json")
-
-        for entity in entities:
-            label = entity.get("label", {}).get("value", "")
-            uri = entity.get("entity", {}).get("value", "")
-            entity_type = entity.get("type", {}).get("value", "")
-            
-            if label and uri:
-                self.entity_cache[label.lower()] = {
-                    "uri": uri,
-                    "type": entity_type
-                }
-        
-        # Save cache
-        os.makedirs(os.path.dirname(cache_file), exist_ok=True)
-        with open(cache_file, 'w') as f:
-            json.dump(self.entity_cache, f, indent=2)
     
     
     def get_similar_kg_label(self, query_text, top_k=1):

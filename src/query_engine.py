@@ -15,6 +15,7 @@ class QueryEngine:
         sparql_query = self.nl_processor.nl_to_sparql(question)
         explanation = self.nl_processor.query_explanation(query_type, target)
         print("Query : " , sparql_query)
+        print("end query")
         # Execute SPARQL query
         results = self.kg_store.run_query(sparql_query)
         
@@ -87,7 +88,7 @@ if __name__ == "__main__":
     
     # Test with some example questions
     test_questions = [
-        "What are the various adventure activities ?"
+        "Give me Dharamshala Full Days City Tour."
     ]
     
     for question in test_questions:
@@ -96,9 +97,9 @@ if __name__ == "__main__":
         print(f"Question: {results['question']}")
         print(f"Explanation: {results['explanation']}")
         print("Results:")
-
-        print(answer_from_kgllm(question,results["results"]))
-
         # for item in results['results']:
         #     print(f"  {item}")
+        print(answer_from_kgllm(question,results["results"]))
+
+        
         print("-" * 50)

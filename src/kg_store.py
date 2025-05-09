@@ -42,7 +42,7 @@ class KnowledgeGraphStore:
         
         # Upload data
         headers = {"Content-Type": "text/turtle"}
-        response = requests.post(self.data_endpoint, data=data, headers=headers)
+        response = requests.post(self.data_endpoint, data=data.encode("utf-8"), headers=headers)
         
         if response.status_code == 200 or response.status_code == 201:
             print(f"Successfully uploaded {len(graph)} triples to Fuseki")

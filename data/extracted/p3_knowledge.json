@@ -1,0 +1,1374 @@
+{
+  "entities": {
+    "GPE_Hilly_Himachal": {
+      "text": "Hilly Himachal",
+      "type": "GPE",
+      "start": 4,
+      "end": 18
+    },
+    "PERSON_Shimla": {
+      "text": "Shimla",
+      "type": "PERSON",
+      "start": 63,
+      "end": 69
+    },
+    "FAC_Mall_Road": {
+      "text": "Mall Road",
+      "type": "FAC",
+      "start": 174,
+      "end": 183
+    },
+    "GPE_Kufri": {
+      "text": "Kufri",
+      "type": "GPE",
+      "start": 1549,
+      "end": 1554
+    },
+    "PERSON_Manali": {
+      "text": "Manali",
+      "type": "PERSON",
+      "start": 2934,
+      "end": 2940
+    },
+    "PERSON_Hadimba_Temple_o": {
+      "text": "Hadimba Temple \no",
+      "type": "PERSON",
+      "start": 138,
+      "end": 155
+    },
+    "GPE_Rohtang": {
+      "text": "Rohtang",
+      "type": "GPE",
+      "start": 2515,
+      "end": 2522
+    },
+    "PERSON_Dharamshala": {
+      "text": "Dharamshala",
+      "type": "PERSON",
+      "start": 4463,
+      "end": 4474
+    },
+    "FAC_Bhagsunag_Temple": {
+      "text": "Bhagsunag Temple",
+      "type": "FAC",
+      "start": 262,
+      "end": 278
+    },
+    "ORG_Mc_Leodgunj_o": {
+      "text": "Mc Leodgunj \no",
+      "type": "ORG",
+      "start": 297,
+      "end": 311
+    },
+    "LOC_Dal_Lake": {
+      "text": "Dal Lake",
+      "type": "LOC",
+      "start": 4789,
+      "end": 4797
+    },
+    "PERSON_Guyton_Rameda": {
+      "text": "Guyton Rameda",
+      "type": "PERSON",
+      "start": 4812,
+      "end": 4825
+    },
+    "GPE_St_john_s": {
+      "text": "St. john\u2019s",
+      "type": "GPE",
+      "start": 4700,
+      "end": 4710
+    },
+    "FAC_Rose_Garden": {
+      "text": "Rose \nGarden",
+      "type": "FAC",
+      "start": 6175,
+      "end": 6187
+    },
+    "FAC_Rock_Garden": {
+      "text": "Rock Garden",
+      "type": "FAC",
+      "start": 504,
+      "end": 515
+    },
+    "LOC_Sukhna_Lake_Meals": {
+      "text": "Sukhna Lake \n \nMeals",
+      "type": "LOC",
+      "start": 519,
+      "end": 539
+    },
+    "ORG_Breakfasts_10_Dinners_Hotels_Used_OR": {
+      "text": "Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR",
+      "type": "ORG",
+      "start": 544,
+      "end": 593
+    },
+    "ORG_Destination_Hotels_Resort_Shimla": {
+      "text": "Destination \nHotels & Resort \nShimla",
+      "type": "ORG",
+      "start": 607,
+      "end": 643
+    },
+    "GPE_Harmony": {
+      "text": "Harmony",
+      "type": "GPE",
+      "start": 672,
+      "end": 679
+    },
+    "FAC_Amara_Resort": {
+      "text": "Amara Resort",
+      "type": "FAC",
+      "start": 714,
+      "end": 726
+    },
+    "ORG_Hotel_Trinity_Heights": {
+      "text": "Hotel Trinity Heights",
+      "type": "ORG",
+      "start": 790,
+      "end": 811
+    },
+    "PERSON_Dalhousie": {
+      "text": "Dalhousie",
+      "type": "PERSON",
+      "start": 5533,
+      "end": 5542
+    },
+    "PERSON_Mohan_Palace": {
+      "text": "Mohan Palace",
+      "type": "PERSON",
+      "start": 836,
+      "end": 848
+    },
+    "FAC_Mongas_Hotel": {
+      "text": "Mongas Hotel",
+      "type": "FAC",
+      "start": 852,
+      "end": 864
+    },
+    "ORG_Hometel": {
+      "text": "Hometel",
+      "type": "ORG",
+      "start": 887,
+      "end": 894
+    },
+    "PRODUCT_CWB": {
+      "text": "CWB",
+      "type": "PRODUCT",
+      "start": 987,
+      "end": 990
+    },
+    "FAC_Arrive_Delhi_Airport": {
+      "text": "Arrive Delhi Airport",
+      "type": "FAC",
+      "start": 1168,
+      "end": 1188
+    },
+    "FAC_Railway_Station": {
+      "text": "Railway Station",
+      "type": "FAC",
+      "start": 1192,
+      "end": 1207
+    },
+    "GPE_Shimla": {
+      "text": "Shimla",
+      "type": "GPE",
+      "start": 1965,
+      "end": 1971
+    },
+    "NORP_British": {
+      "text": "British",
+      "type": "NORP",
+      "start": 1300,
+      "end": 1307
+    },
+    "GPE_India": {
+      "text": "India",
+      "type": "GPE",
+      "start": 3482,
+      "end": 3487
+    },
+    "GPE_Himachal_Pradesh": {
+      "text": "Himachal Pradesh",
+      "type": "GPE",
+      "start": 2762,
+      "end": 2778
+    },
+    "FAC_Hotel": {
+      "text": "Hotel",
+      "type": "FAC",
+      "start": 5684,
+      "end": 5689
+    },
+    "WORK_OF_ART_Morning_sightseeing_tour_of": {
+      "text": "Morning sightseeing tour of",
+      "type": "WORK_OF_ART",
+      "start": 1507,
+      "end": 1534
+    },
+    "WORK_OF_ART_Horse_Riding": {
+      "text": "Horse Riding",
+      "type": "WORK_OF_ART",
+      "start": 1601,
+      "end": 1613
+    },
+    "PERSON_Yak_Riding": {
+      "text": "Yak Riding",
+      "type": "PERSON",
+      "start": 1615,
+      "end": 1625
+    },
+    "FAC_The_Mall": {
+      "text": "The Mall",
+      "type": "FAC",
+      "start": 1639,
+      "end": 1647
+    },
+    "GPE_Shimla_Manali": {
+      "text": "Shimla-Manali",
+      "type": "GPE",
+      "start": 1863,
+      "end": 1876
+    },
+    "GPE_Manali": {
+      "text": "Manali",
+      "type": "GPE",
+      "start": 1975,
+      "end": 1981
+    },
+    "ORG_Arrive_Manali_Transfer": {
+      "text": "Arrive Manali Transfer",
+      "type": "ORG",
+      "start": 1983,
+      "end": 2005
+    },
+    "ORG_Manali_Local_Sightseeing": {
+      "text": "Manali-Local Sightseeing",
+      "type": "ORG",
+      "start": 2118,
+      "end": 2142
+    },
+    "LOC_Manali": {
+      "text": "Manali",
+      "type": "LOC",
+      "start": 2689,
+      "end": 2695
+    },
+    "PERSON_Hadimba_Devi_Temple": {
+      "text": "Hadimba Devi \nTemple",
+      "type": "PERSON",
+      "start": 2230,
+      "end": 2250
+    },
+    "ORG_Club_House": {
+      "text": "Club House",
+      "type": "ORG",
+      "start": 2252,
+      "end": 2262
+    },
+    "PERSON_Vashisth_Bath": {
+      "text": "Vashisth Bath",
+      "type": "PERSON",
+      "start": 2264,
+      "end": 2277
+    },
+    "LOC_Solang": {
+      "text": "Solang",
+      "type": "LOC",
+      "start": 2282,
+      "end": 2288
+    },
+    "FAC_The_Mall_road": {
+      "text": "The Mall road",
+      "type": "FAC",
+      "start": 2311,
+      "end": 2324
+    },
+    "PERSON_Rohtang": {
+      "text": "Rohtang",
+      "type": "PERSON",
+      "start": 2584,
+      "end": 2591
+    },
+    "LOC_Pir_Panjal_Range": {
+      "text": "Pir Panjal Range",
+      "type": "LOC",
+      "start": 2637,
+      "end": 2653
+    },
+    "LOC_the_Kull_Valley": {
+      "text": "the Kull Valley",
+      "type": "LOC",
+      "start": 2709,
+      "end": 2724
+    },
+    "PRODUCT_Lahaul": {
+      "text": "Lahaul",
+      "type": "PRODUCT",
+      "start": 2734,
+      "end": 2740
+    },
+    "LOC_Spiti_Valleys": {
+      "text": "Spiti Valleys",
+      "type": "LOC",
+      "start": 2745,
+      "end": 2758
+    },
+    "PERSON_Dharmshala": {
+      "text": "Dharmshala",
+      "type": "PERSON",
+      "start": 2913,
+      "end": 2923
+    },
+    "ORG_Breakfast_Proceed": {
+      "text": "Breakfast Proceed",
+      "type": "ORG",
+      "start": 2993,
+      "end": 3010
+    },
+    "GPE_Dharamshala": {
+      "text": "Dharamshala",
+      "type": "GPE",
+      "start": 4545,
+      "end": 4556
+    },
+    "PERSON_Baijnath": {
+      "text": "Baijnath",
+      "type": "PERSON",
+      "start": 3050,
+      "end": 3058
+    },
+    "ORG_Shiva_Temple": {
+      "text": "Shiva Temple",
+      "type": "ORG",
+      "start": 3073,
+      "end": 3085
+    },
+    "GPE_Palampur": {
+      "text": "Palampur",
+      "type": "GPE",
+      "start": 3102,
+      "end": 3110
+    },
+    "LOC_Tea_Garden": {
+      "text": "Tea Garden",
+      "type": "LOC",
+      "start": 3122,
+      "end": 3132
+    },
+    "LOC_Kangra": {
+      "text": "Kangra",
+      "type": "LOC",
+      "start": 3238,
+      "end": 3244
+    },
+    "ORG__Abode": {
+      "text": "& Abode",
+      "type": "ORG",
+      "start": 3371,
+      "end": 3378
+    },
+    "WORK_OF_ART_The_Little_Lhasa": {
+      "text": "The Little Lhasa",
+      "type": "WORK_OF_ART",
+      "start": 3462,
+      "end": 3478
+    },
+    "ORG_Dharamshala_Hotel_In": {
+      "text": "Dharamshala Hotel & In",
+      "type": "ORG",
+      "start": 3510,
+      "end": 3532
+    },
+    "ORG_Dal_Lake": {
+      "text": "Dal Lake",
+      "type": "ORG",
+      "start": 3792,
+      "end": 3800
+    },
+    "GPE_Church": {
+      "text": "Church",
+      "type": "GPE",
+      "start": 3802,
+      "end": 3808
+    },
+    "ORG_Bhagsu_Nag_Temple": {
+      "text": "Bhagsu Nag Temple",
+      "type": "ORG",
+      "start": 3810,
+      "end": 3827
+    },
+    "FAC_Bhagsu_Nag_Waterfall": {
+      "text": "Bhagsu Nag Waterfall",
+      "type": "FAC",
+      "start": 3829,
+      "end": 3849
+    },
+    "NORP_Tibetan": {
+      "text": "Tibetan",
+      "type": "NORP",
+      "start": 4051,
+      "end": 4058
+    },
+    "ORG_Tibetan_Medical_Centre": {
+      "text": "Tibetan Medical Centre",
+      "type": "ORG",
+      "start": 3992,
+      "end": 4014
+    },
+    "ORG_St_John_Church": {
+      "text": "St. John Church",
+      "type": "ORG",
+      "start": 4070,
+      "end": 4085
+    },
+    "NORP_Belgian": {
+      "text": "Belgian",
+      "type": "NORP",
+      "start": 4174,
+      "end": 4181
+    },
+    "PERSON_Lady_Elgin": {
+      "text": "Lady Elgin",
+      "type": "PERSON",
+      "start": 4228,
+      "end": 4238
+    },
+    "ORG_Kangra_Art_Museum": {
+      "text": "Kangra Art Museum",
+      "type": "ORG",
+      "start": 4306,
+      "end": 4323
+    },
+    "PERSON_Dharmshala_Dalhousie": {
+      "text": "Dharmshala - Dalhousie",
+      "type": "PERSON",
+      "start": 4430,
+      "end": 4452
+    },
+    "PERSON_Dalai_lama_residence_Tsugalkhang": {
+      "text": "Dalai lama residence & Tsugalkhang",
+      "type": "PERSON",
+      "start": 4649,
+      "end": 4683
+    },
+    "ORG_Mc_Leodgunj": {
+      "text": "Mc Leodgunj",
+      "type": "ORG",
+      "start": 4687,
+      "end": 4698
+    },
+    "PERSON_Bhagsunag_temple": {
+      "text": "Bhagsunag temple",
+      "type": "PERSON",
+      "start": 4768,
+      "end": 4784
+    },
+    "GPE_Norbulingka": {
+      "text": "Norbulingka",
+      "type": "GPE",
+      "start": 4799,
+      "end": 4810
+    },
+    "FAC_Khajjiar": {
+      "text": "Khajjiar",
+      "type": "FAC",
+      "start": 5067,
+      "end": 5075
+    },
+    "ORG_Dalhousie": {
+      "text": "Dalhousie",
+      "type": "ORG",
+      "start": 5089,
+      "end": 5098
+    },
+    "LOC_Plateau": {
+      "text": "Plateau",
+      "type": "LOC",
+      "start": 5144,
+      "end": 5151
+    },
+    "ORG_deodar_forests": {
+      "text": "deodar forests",
+      "type": "ORG",
+      "start": 5188,
+      "end": 5202
+    },
+    "ORG_Dalhousie_Hotel": {
+      "text": "Dalhousie Hotel",
+      "type": "ORG",
+      "start": 5382,
+      "end": 5397
+    },
+    "PERSON_Chandigarh": {
+      "text": "Chandigarh",
+      "type": "PERSON",
+      "start": 5512,
+      "end": 5522
+    },
+    "GPE_Chandigarh": {
+      "text": "Chandigarh",
+      "type": "GPE",
+      "start": 5741,
+      "end": 5751
+    },
+    "GPE_Delhi": {
+      "text": "Delhi",
+      "type": "GPE",
+      "start": 6246,
+      "end": 6251
+    },
+    "PERSON_Pinjore_Garden": {
+      "text": "Pinjore Garden",
+      "type": "PERSON",
+      "start": 5910,
+      "end": 5924
+    },
+    "GPE_Yadavindra_Gardens": {
+      "text": "Yadavindra Gardens",
+      "type": "GPE",
+      "start": 5939,
+      "end": 5957
+    },
+    "GPE_Pinjore": {
+      "text": "Pinjore",
+      "type": "GPE",
+      "start": 6005,
+      "end": 6012
+    },
+    "GPE_Panchkula": {
+      "text": "Panchkula",
+      "type": "GPE",
+      "start": 6021,
+      "end": 6030
+    },
+    "NORP_Indian": {
+      "text": "Indian",
+      "type": "NORP",
+      "start": 6047,
+      "end": 6053
+    },
+    "GPE_Haryana": {
+      "text": "Haryana",
+      "type": "GPE",
+      "start": 6063,
+      "end": 6070
+    },
+    "LOC_Mughal_Gardens": {
+      "text": "Mughal Gardens",
+      "type": "LOC",
+      "start": 6097,
+      "end": 6111
+    },
+    "GPE_Rock_Garden": {
+      "text": "Rock Garden",
+      "type": "GPE",
+      "start": 6189,
+      "end": 6200
+    },
+    "LOC_Sukhna_Lake": {
+      "text": "Sukhna Lake",
+      "type": "LOC",
+      "start": 6202,
+      "end": 6213
+    },
+    "ORG_The_Concept_Of_Disposal_Vehicles_Is_Not_Practiced_In_This_Sector": {
+      "text": "The Concept Of Disposal \nVehicles Is Not Practiced In This Sector",
+      "type": "ORG",
+      "start": 6723,
+      "end": 6788
+    },
+    "ORG_The_Vehicle_Provided_Shall_Strictly_Be_On_Point_To_Point_Basis_Only": {
+      "text": "The Vehicle Provided Shall Strictly Be On Point To Point \nBasis Only",
+      "type": "ORG",
+      "start": 6790,
+      "end": 6858
+    },
+    "ORG_The_Vehicle_May_Change": {
+      "text": "The Vehicle May Change",
+      "type": "ORG",
+      "start": 6860,
+      "end": 6882
+    },
+    "ORG_Optional_Tours": {
+      "text": "Optional Tours",
+      "type": "ORG",
+      "start": 7090,
+      "end": 7104
+    },
+    "ORG_Bottled_Water_Soft_Drinks": {
+      "text": "Bottled Water, Soft Drinks",
+      "type": "ORG",
+      "start": 7402,
+      "end": 7428
+    },
+    "GPE_Incidentals": {
+      "text": "Incidentals",
+      "type": "GPE",
+      "start": 7430,
+      "end": 7441
+    },
+    "PERSON_Mishaps": {
+      "text": "Mishaps",
+      "type": "PERSON",
+      "start": 7821,
+      "end": 7828
+    },
+    "FAC_Road_Blockage": {
+      "text": "Road Blockage",
+      "type": "FAC",
+      "start": 7887,
+      "end": 7900
+    },
+    "ORG_The_Time_of_Booking_Confirmation": {
+      "text": "The Time of Booking Confirmation",
+      "type": "ORG",
+      "start": 8020,
+      "end": 8052
+    },
+    "ORG_Advance_Is_Required": {
+      "text": "Advance Is Required",
+      "type": "ORG",
+      "start": 8165,
+      "end": 8184
+    },
+    "ORG_Hotels_Vehicle": {
+      "text": "Hotels/ Vehicle",
+      "type": "ORG",
+      "start": 8897,
+      "end": 8912
+    },
+    "ORG_Terms_Conditions_Address": {
+      "text": "Terms & Conditions   \n \n \n \n \n \nAddress",
+      "type": "ORG",
+      "start": 8926,
+      "end": 8965
+    },
+    "ORG_Anhill_Complex": {
+      "text": "Anhill Complex",
+      "type": "ORG",
+      "start": 8972,
+      "end": 8986
+    },
+    "FAC_C_G_Road": {
+      "text": "C G Road",
+      "type": "FAC",
+      "start": 9027,
+      "end": 9035
+    },
+    "GPE_Navragpura": {
+      "text": "Navragpura",
+      "type": "GPE",
+      "start": 9037,
+      "end": 9047
+    },
+    "GPE_Ahmedabad": {
+      "text": "Ahmedabad",
+      "type": "GPE",
+      "start": 9049,
+      "end": 9058
+    },
+    "PERSON_Maninagar": {
+      "text": "Maninagar",
+      "type": "PERSON",
+      "start": 9168,
+      "end": 9177
+    },
+    "PERSON_Nikol": {
+      "text": "Nikol",
+      "type": "PERSON",
+      "start": 9179,
+      "end": 9184
+    },
+    "PERSON_Gandhinagar": {
+      "text": "Gandhinagar",
+      "type": "PERSON",
+      "start": 9186,
+      "end": 9197
+    },
+    "GPE_Kalol": {
+      "text": "Kalol",
+      "type": "GPE",
+      "start": 9199,
+      "end": 9204
+    },
+    "PERSON_Mehsana": {
+      "text": "Mehsana",
+      "type": "PERSON",
+      "start": 9206,
+      "end": 9213
+    },
+    "PERSON_Nadiad": {
+      "text": "Nadiad",
+      "type": "PERSON",
+      "start": 9215,
+      "end": 9221
+    },
+    "PERSON_Anand": {
+      "text": "Anand",
+      "type": "PERSON",
+      "start": 9223,
+      "end": 9228
+    },
+    "GPE_Vadodara": {
+      "text": "Vadodara",
+      "type": "GPE",
+      "start": 9230,
+      "end": 9238
+    },
+    "GPE_Surat": {
+      "text": "Surat",
+      "type": "GPE",
+      "start": 9241,
+      "end": 9246
+    },
+    "GPE_Rajkot": {
+      "text": "Rajkot",
+      "type": "GPE",
+      "start": 9248,
+      "end": 9254
+    },
+    "GPE_Bhuj": {
+      "text": "Bhuj",
+      "type": "GPE",
+      "start": 9256,
+      "end": 9260
+    },
+    "PERSON_Gandhidham": {
+      "text": "Gandhidham",
+      "type": "PERSON",
+      "start": 9262,
+      "end": 9272
+    },
+    "WORK_OF_ART_Deesa": {
+      "text": "Deesa \n \n \n \n \n",
+      "type": "WORK_OF_ART",
+      "start": 9274,
+      "end": 9289
+    }
+  },
+  "relations": [
+    {
+      "source": "LOC_Dal_Lake",
+      "target": "ORG_Destination_\nHotels_&_Resort_\nShimla",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Dal_Lake",
+      "target": "GPE_Harmony",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Dal_Lake",
+      "target": "FAC_Amara_Resort",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Dal_Lake",
+      "target": "ORG_Hotel_Trinity_Heights",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Dal_Lake",
+      "target": "PERSON_Dalhousie",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Dal_Lake",
+      "target": "PERSON_Mohan_Palace",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Dal_Lake",
+      "target": "FAC_Mongas_Hotel",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Dal_Lake",
+      "target": "ORG_Hometel",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Dal_Lake",
+      "target": "PRODUCT_CWB",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "PERSON_Guyton_Rameda",
+      "target": "ORG_Destination_\nHotels_&_Resort_\nShimla",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "PERSON_Guyton_Rameda",
+      "target": "GPE_Harmony",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "PERSON_Guyton_Rameda",
+      "target": "FAC_Amara_Resort",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "PERSON_Guyton_Rameda",
+      "target": "ORG_Hotel_Trinity_Heights",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "PERSON_Guyton_Rameda",
+      "target": "PERSON_Dalhousie",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "PERSON_Guyton_Rameda",
+      "target": "PERSON_Mohan_Palace",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "PERSON_Guyton_Rameda",
+      "target": "FAC_Mongas_Hotel",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "PERSON_Guyton_Rameda",
+      "target": "ORG_Hometel",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "PERSON_Guyton_Rameda",
+      "target": "PRODUCT_CWB",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "GPE_St._john\u2019s",
+      "target": "ORG_Destination_\nHotels_&_Resort_\nShimla",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "GPE_St._john\u2019s",
+      "target": "GPE_Harmony",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "GPE_St._john\u2019s",
+      "target": "FAC_Amara_Resort",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "GPE_St._john\u2019s",
+      "target": "ORG_Hotel_Trinity_Heights",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "GPE_St._john\u2019s",
+      "target": "PERSON_Dalhousie",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "GPE_St._john\u2019s",
+      "target": "PERSON_Mohan_Palace",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "GPE_St._john\u2019s",
+      "target": "FAC_Mongas_Hotel",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "GPE_St._john\u2019s",
+      "target": "ORG_Hometel",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "GPE_St._john\u2019s",
+      "target": "PRODUCT_CWB",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rose_Garden",
+      "target": "ORG_Destination_\nHotels_&_Resort_\nShimla",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rose_Garden",
+      "target": "GPE_Harmony",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rose_Garden",
+      "target": "FAC_Amara_Resort",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rose_Garden",
+      "target": "ORG_Hotel_Trinity_Heights",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rose_Garden",
+      "target": "PERSON_Dalhousie",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rose_Garden",
+      "target": "PERSON_Mohan_Palace",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rose_Garden",
+      "target": "FAC_Mongas_Hotel",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rose_Garden",
+      "target": "ORG_Hometel",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rose_Garden",
+      "target": "PRODUCT_CWB",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rock_Garden",
+      "target": "ORG_Destination_\nHotels_&_Resort_\nShimla",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rock_Garden",
+      "target": "GPE_Harmony",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rock_Garden",
+      "target": "FAC_Amara_Resort",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rock_Garden",
+      "target": "ORG_Hotel_Trinity_Heights",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rock_Garden",
+      "target": "PERSON_Dalhousie",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rock_Garden",
+      "target": "PERSON_Mohan_Palace",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rock_Garden",
+      "target": "FAC_Mongas_Hotel",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rock_Garden",
+      "target": "ORG_Hometel",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Rock_Garden",
+      "target": "PRODUCT_CWB",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Sukhna_Lake_\n_\nMeals",
+      "target": "ORG_Destination_\nHotels_&_Resort_\nShimla",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Sukhna_Lake_\n_\nMeals",
+      "target": "GPE_Harmony",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Sukhna_Lake_\n_\nMeals",
+      "target": "FAC_Amara_Resort",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Sukhna_Lake_\n_\nMeals",
+      "target": "ORG_Hotel_Trinity_Heights",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Sukhna_Lake_\n_\nMeals",
+      "target": "PERSON_Dalhousie",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Sukhna_Lake_\n_\nMeals",
+      "target": "PERSON_Mohan_Palace",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Sukhna_Lake_\n_\nMeals",
+      "target": "FAC_Mongas_Hotel",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Sukhna_Lake_\n_\nMeals",
+      "target": "ORG_Hometel",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "LOC_Sukhna_Lake_\n_\nMeals",
+      "target": "PRODUCT_CWB",
+      "type": "location",
+      "sentence": "Dal Lake \no Guyton Rameda Tantric Monastery \nDalhousie: 02 Nights \no City Tour \no St. john\u2019s church (On the Way) \no Khajjiar - Chamba \nChandigarh: 01 Nights \no Rose Garden \no Rock Garden \no Sukhna Lake \n \nMeals: 10 Breakfasts & 10 Dinners \n \n \n \n \n \nHotels Used OR Similar: \n  \nDestination \nHotels & Resort \nShimla \nThe Grand White Sanobar or Harmony Blu Mashobara or Similar \nManali \nAmara Resort or The Samita Grand or Similar \n Dharamshala Triund Heights or Hotel Trinity Heights or Similar \n Dalhousie \nMohan Palace or Mongas Hotel Similar \n Chandigarh \nHometel or Similar \n \n \nPackage Cost: \n \nPackage Cost Per Person \nRates \nPer Adult Rate \n35,500 /- \nCWB \n28,500 /- \nCNB below 12 \n22,500 /- \n5% GST on Total Tour Cost \n \n \nSuggested Day"
+    },
+    {
+      "source": "FAC_Arrive_Delhi_Airport",
+      "target": "GPE_Shimla",
+      "type": "location",
+      "sentence": "8 to 9 Hrs) \nArrive Delhi Airport or Railway Station and drive to Shimla."
+    },
+    {
+      "source": "FAC_Railway_Station",
+      "target": "GPE_Shimla",
+      "type": "location",
+      "sentence": "8 to 9 Hrs) \nArrive Delhi Airport or Railway Station and drive to Shimla."
+    },
+    {
+      "source": "WORK_OF_ART_Morning_sightseeing_tour_of",
+      "target": "GPE_Kufri",
+      "type": "visitsAttraction",
+      "sentence": "Shimla-Local Sightseeing \nAfter breakfast, proceed for Morning sightseeing tour of Shimla, visit Kufri - located 16 kms from Shimla, \nhere you enjoy Horse Riding, Yak Riding."
+    },
+    {
+      "source": "WORK_OF_ART_Morning_sightseeing_tour_of",
+      "target": "GPE_Shimla",
+      "type": "location",
+      "sentence": "Shimla-Local Sightseeing \nAfter breakfast, proceed for Morning sightseeing tour of Shimla, visit Kufri - located 16 kms from Shimla, \nhere you enjoy Horse Riding, Yak Riding."
+    },
+    {
+      "source": "WORK_OF_ART_Morning_sightseeing_tour_of",
+      "target": "WORK_OF_ART_Horse_Riding",
+      "type": "visitsAttraction",
+      "sentence": "Shimla-Local Sightseeing \nAfter breakfast, proceed for Morning sightseeing tour of Shimla, visit Kufri - located 16 kms from Shimla, \nhere you enjoy Horse Riding, Yak Riding."
+    },
+    {
+      "source": "WORK_OF_ART_Morning_sightseeing_tour_of",
+      "target": "PERSON_Yak_Riding",
+      "type": "visitsAttraction",
+      "sentence": "Shimla-Local Sightseeing \nAfter breakfast, proceed for Morning sightseeing tour of Shimla, visit Kufri - located 16 kms from Shimla, \nhere you enjoy Horse Riding, Yak Riding."
+    },
+    {
+      "source": "GPE_Shimla",
+      "target": "GPE_Kufri",
+      "type": "visitsAttraction",
+      "sentence": "Shimla-Local Sightseeing \nAfter breakfast, proceed for Morning sightseeing tour of Shimla, visit Kufri - located 16 kms from Shimla, \nhere you enjoy Horse Riding, Yak Riding."
+    },
+    {
+      "source": "GPE_Shimla",
+      "target": "GPE_Shimla",
+      "type": "location",
+      "sentence": "Shimla-Local Sightseeing \nAfter breakfast, proceed for Morning sightseeing tour of Shimla, visit Kufri - located 16 kms from Shimla, \nhere you enjoy Horse Riding, Yak Riding."
+    },
+    {
+      "source": "GPE_Shimla",
+      "target": "WORK_OF_ART_Horse_Riding",
+      "type": "visitsAttraction",
+      "sentence": "Shimla-Local Sightseeing \nAfter breakfast, proceed for Morning sightseeing tour of Shimla, visit Kufri - located 16 kms from Shimla, \nhere you enjoy Horse Riding, Yak Riding."
+    },
+    {
+      "source": "GPE_Shimla",
+      "target": "PERSON_Yak_Riding",
+      "type": "visitsAttraction",
+      "sentence": "Shimla-Local Sightseeing \nAfter breakfast, proceed for Morning sightseeing tour of Shimla, visit Kufri - located 16 kms from Shimla, \nhere you enjoy Horse Riding, Yak Riding."
+    },
+    {
+      "source": "GPE_Kufri",
+      "target": "GPE_Shimla",
+      "type": "location",
+      "sentence": "Shimla-Local Sightseeing \nAfter breakfast, proceed for Morning sightseeing tour of Shimla, visit Kufri - located 16 kms from Shimla, \nhere you enjoy Horse Riding, Yak Riding."
+    },
+    {
+      "source": "GPE_Kufri",
+      "target": "WORK_OF_ART_Horse_Riding",
+      "type": "location",
+      "sentence": "Shimla-Local Sightseeing \nAfter breakfast, proceed for Morning sightseeing tour of Shimla, visit Kufri - located 16 kms from Shimla, \nhere you enjoy Horse Riding, Yak Riding."
+    },
+    {
+      "source": "GPE_Kufri",
+      "target": "PERSON_Yak_Riding",
+      "type": "location",
+      "sentence": "Shimla-Local Sightseeing \nAfter breakfast, proceed for Morning sightseeing tour of Shimla, visit Kufri - located 16 kms from Shimla, \nhere you enjoy Horse Riding, Yak Riding."
+    },
+    {
+      "source": "GPE_Shimla",
+      "target": "WORK_OF_ART_Horse_Riding",
+      "type": "reviewOf",
+      "sentence": "Shimla-Local Sightseeing \nAfter breakfast, proceed for Morning sightseeing tour of Shimla, visit Kufri - located 16 kms from Shimla, \nhere you enjoy Horse Riding, Yak Riding."
+    },
+    {
+      "source": "GPE_Shimla",
+      "target": "PERSON_Yak_Riding",
+      "type": "reviewOf",
+      "sentence": "Shimla-Local Sightseeing \nAfter breakfast, proceed for Morning sightseeing tour of Shimla, visit Kufri - located 16 kms from Shimla, \nhere you enjoy Horse Riding, Yak Riding."
+    },
+    {
+      "source": "ORG_Manali-Local_Sightseeing",
+      "target": "LOC_Manali",
+      "type": "comment",
+      "sentence": "Manali-Local Sightseeing \nAfter breakfast, proceed for local Sightseeing tour of Manali including the legendary Hadimba Devi \nTemple, Club House, Vashisth Bath and Solang valley."
+    },
+    {
+      "source": "ORG_Breakfast_Proceed",
+      "target": "PERSON_Baijnath",
+      "type": "comment",
+      "sentence": "After Breakfast Proceed to Dharamshala, on the way stopping at Baijnath known for its Shiva Temple and \nfurther at Palampur famous For Tea Garden."
+    },
+    {
+      "source": "GPE_Dharamshala",
+      "target": "PERSON_Baijnath",
+      "type": "comment",
+      "sentence": "After Breakfast Proceed to Dharamshala, on the way stopping at Baijnath known for its Shiva Temple and \nfurther at Palampur famous For Tea Garden."
+    },
+    {
+      "source": "PERSON_Baijnath",
+      "target": "ORG_Shiva_Temple",
+      "type": "comment",
+      "sentence": "After Breakfast Proceed to Dharamshala, on the way stopping at Baijnath known for its Shiva Temple and \nfurther at Palampur famous For Tea Garden."
+    },
+    {
+      "source": "PERSON_Baijnath",
+      "target": "GPE_Palampur",
+      "type": "comment",
+      "sentence": "After Breakfast Proceed to Dharamshala, on the way stopping at Baijnath known for its Shiva Temple and \nfurther at Palampur famous For Tea Garden."
+    },
+    {
+      "source": "PERSON_Baijnath",
+      "target": "LOC_Tea_Garden",
+      "type": "comment",
+      "sentence": "After Breakfast Proceed to Dharamshala, on the way stopping at Baijnath known for its Shiva Temple and \nfurther at Palampur famous For Tea Garden."
+    },
+    {
+      "source": "GPE_Dharamshala",
+      "target": "LOC_Kangra",
+      "type": "comment",
+      "sentence": "Dharamshala is a hill-station lying on the spur of the \nDhauladhar Mountains about 18 kms north-east of Kangra, It is known for its scenic beauty set amidst \nhigh pine and oak trees."
+    },
+    {
+      "source": "ORG_Dharamshala_Hotel_&_In",
+      "target": "FAC_Hotel",
+      "type": "reviewOf",
+      "sentence": "Later check \ninn to Dharamshala Hotel & In evening, enjoy dinner at Hotel and overnight stay the hotel. \n"
+    },
+    {
+      "source": "ORG_Kangra_Art_Museum",
+      "target": "FAC_Hotel",
+      "type": "reviewOf",
+      "sentence": "Other than these attractions, some other places to visit \ninclude Kangra Art Museum, In evening, enjoy dinner at Hotel and overnight stay the hotel. \n \n \n"
+    },
+    {
+      "source": "PERSON_Dharmshala_-_Dalhousie",
+      "target": "PERSON_Dharamshala",
+      "type": "location",
+      "sentence": "Dharmshala - Dalhousie (Driving: Dharamshala \u2013 Dalhousie // Approx. 4 hrs // 140 Kms). \n"
+    },
+    {
+      "source": "PERSON_Dharmshala_-_Dalhousie",
+      "target": "PERSON_Dalhousie",
+      "type": "location",
+      "sentence": "Dharmshala - Dalhousie (Driving: Dharamshala \u2013 Dalhousie // Approx. 4 hrs // 140 Kms). \n"
+    },
+    {
+      "source": "PERSON_Dalai_lama_residence_&_Tsugalkhang",
+      "target": "PERSON_Bhagsunag_temple",
+      "type": "location",
+      "sentence": "After Breakfast drive from Dharamshala towards Dalhousie after doing the local sightseeing of Places \nwhich includes, His holiness Dalai lama residence & Tsugalkhang at Mc Leodgunj, St. john\u2019s church in the \nwilderness (Built in 1853), War memorial, Bhagsunag temple and Dal Lake, Norbulingka, Guyton Rameda \nTantric Monastery."
+    },
+    {
+      "source": "PERSON_Dalai_lama_residence_&_Tsugalkhang",
+      "target": "LOC_Dal_Lake",
+      "type": "location",
+      "sentence": "After Breakfast drive from Dharamshala towards Dalhousie after doing the local sightseeing of Places \nwhich includes, His holiness Dalai lama residence & Tsugalkhang at Mc Leodgunj, St. john\u2019s church in the \nwilderness (Built in 1853), War memorial, Bhagsunag temple and Dal Lake, Norbulingka, Guyton Rameda \nTantric Monastery."
+    },
+    {
+      "source": "PERSON_Dalai_lama_residence_&_Tsugalkhang",
+      "target": "GPE_Norbulingka",
+      "type": "location",
+      "sentence": "After Breakfast drive from Dharamshala towards Dalhousie after doing the local sightseeing of Places \nwhich includes, His holiness Dalai lama residence & Tsugalkhang at Mc Leodgunj, St. john\u2019s church in the \nwilderness (Built in 1853), War memorial, Bhagsunag temple and Dal Lake, Norbulingka, Guyton Rameda \nTantric Monastery."
+    },
+    {
+      "source": "PERSON_Dalai_lama_residence_&_Tsugalkhang",
+      "target": "PERSON_Guyton_Rameda",
+      "type": "location",
+      "sentence": "After Breakfast drive from Dharamshala towards Dalhousie after doing the local sightseeing of Places \nwhich includes, His holiness Dalai lama residence & Tsugalkhang at Mc Leodgunj, St. john\u2019s church in the \nwilderness (Built in 1853), War memorial, Bhagsunag temple and Dal Lake, Norbulingka, Guyton Rameda \nTantric Monastery."
+    },
+    {
+      "source": "ORG_Mc_Leodgunj",
+      "target": "PERSON_Bhagsunag_temple",
+      "type": "location",
+      "sentence": "After Breakfast drive from Dharamshala towards Dalhousie after doing the local sightseeing of Places \nwhich includes, His holiness Dalai lama residence & Tsugalkhang at Mc Leodgunj, St. john\u2019s church in the \nwilderness (Built in 1853), War memorial, Bhagsunag temple and Dal Lake, Norbulingka, Guyton Rameda \nTantric Monastery."
+    },
+    {
+      "source": "ORG_Mc_Leodgunj",
+      "target": "LOC_Dal_Lake",
+      "type": "location",
+      "sentence": "After Breakfast drive from Dharamshala towards Dalhousie after doing the local sightseeing of Places \nwhich includes, His holiness Dalai lama residence & Tsugalkhang at Mc Leodgunj, St. john\u2019s church in the \nwilderness (Built in 1853), War memorial, Bhagsunag temple and Dal Lake, Norbulingka, Guyton Rameda \nTantric Monastery."
+    },
+    {
+      "source": "ORG_Mc_Leodgunj",
+      "target": "GPE_Norbulingka",
+      "type": "location",
+      "sentence": "After Breakfast drive from Dharamshala towards Dalhousie after doing the local sightseeing of Places \nwhich includes, His holiness Dalai lama residence & Tsugalkhang at Mc Leodgunj, St. john\u2019s church in the \nwilderness (Built in 1853), War memorial, Bhagsunag temple and Dal Lake, Norbulingka, Guyton Rameda \nTantric Monastery."
+    },
+    {
+      "source": "ORG_Mc_Leodgunj",
+      "target": "PERSON_Guyton_Rameda",
+      "type": "location",
+      "sentence": "After Breakfast drive from Dharamshala towards Dalhousie after doing the local sightseeing of Places \nwhich includes, His holiness Dalai lama residence & Tsugalkhang at Mc Leodgunj, St. john\u2019s church in the \nwilderness (Built in 1853), War memorial, Bhagsunag temple and Dal Lake, Norbulingka, Guyton Rameda \nTantric Monastery."
+    },
+    {
+      "source": "GPE_St._john\u2019s",
+      "target": "PERSON_Bhagsunag_temple",
+      "type": "location",
+      "sentence": "After Breakfast drive from Dharamshala towards Dalhousie after doing the local sightseeing of Places \nwhich includes, His holiness Dalai lama residence & Tsugalkhang at Mc Leodgunj, St. john\u2019s church in the \nwilderness (Built in 1853), War memorial, Bhagsunag temple and Dal Lake, Norbulingka, Guyton Rameda \nTantric Monastery."
+    },
+    {
+      "source": "GPE_St._john\u2019s",
+      "target": "LOC_Dal_Lake",
+      "type": "location",
+      "sentence": "After Breakfast drive from Dharamshala towards Dalhousie after doing the local sightseeing of Places \nwhich includes, His holiness Dalai lama residence & Tsugalkhang at Mc Leodgunj, St. john\u2019s church in the \nwilderness (Built in 1853), War memorial, Bhagsunag temple and Dal Lake, Norbulingka, Guyton Rameda \nTantric Monastery."
+    },
+    {
+      "source": "GPE_St._john\u2019s",
+      "target": "GPE_Norbulingka",
+      "type": "location",
+      "sentence": "After Breakfast drive from Dharamshala towards Dalhousie after doing the local sightseeing of Places \nwhich includes, His holiness Dalai lama residence & Tsugalkhang at Mc Leodgunj, St. john\u2019s church in the \nwilderness (Built in 1853), War memorial, Bhagsunag temple and Dal Lake, Norbulingka, Guyton Rameda \nTantric Monastery."
+    },
+    {
+      "source": "GPE_St._john\u2019s",
+      "target": "PERSON_Guyton_Rameda",
+      "type": "location",
+      "sentence": "After Breakfast drive from Dharamshala towards Dalhousie after doing the local sightseeing of Places \nwhich includes, His holiness Dalai lama residence & Tsugalkhang at Mc Leodgunj, St. john\u2019s church in the \nwilderness (Built in 1853), War memorial, Bhagsunag temple and Dal Lake, Norbulingka, Guyton Rameda \nTantric Monastery."
+    },
+    {
+      "source": "LOC_Plateau",
+      "target": "ORG_deodar_forests",
+      "type": "visitsAttraction",
+      "sentence": "It is one of the most \nscenic saucer shaped Plateau and is surrounded by dense pine and deodar forests, its beauty has further \nbeen enhanced by a small lake in the centre with a floating island and 9-hole golf course here are the other \ninteresting places to cover."
+    },
+    {
+      "source": "PERSON_Dalhousie",
+      "target": "PERSON_Dalhousie",
+      "type": "location",
+      "sentence": "Meal: Breakfast & Dinner \n \nDay 10: Dalhousie\u2013 Chandigarh (Driving: Dalhousie \u2013 Chandigarh //"
+    },
+    {
+      "source": "PERSON_Chandigarh",
+      "target": "PERSON_Dalhousie",
+      "type": "location",
+      "sentence": "Meal: Breakfast & Dinner \n \nDay 10: Dalhousie\u2013 Chandigarh (Driving: Dalhousie \u2013 Chandigarh //"
+    },
+    {
+      "source": "PERSON_Pinjore_Garden",
+      "target": "GPE_Yadavindra_Gardens",
+      "type": "comment",
+      "sentence": "After breakfast checkout and proceed to visit Pinjore Garden also known as Yadavindra Gardens, is a \nhistoric 17th century garden located in Pinjore city of Panchkula district in the Indian state of Haryana."
+    },
+    {
+      "source": "PERSON_Pinjore_Garden",
+      "target": "GPE_Pinjore",
+      "type": "location",
+      "sentence": "After breakfast checkout and proceed to visit Pinjore Garden also known as Yadavindra Gardens, is a \nhistoric 17th century garden located in Pinjore city of Panchkula district in the Indian state of Haryana."
+    },
+    {
+      "source": "PERSON_Pinjore_Garden",
+      "target": "GPE_Panchkula",
+      "type": "location",
+      "sentence": "After breakfast checkout and proceed to visit Pinjore Garden also known as Yadavindra Gardens, is a \nhistoric 17th century garden located in Pinjore city of Panchkula district in the Indian state of Haryana."
+    },
+    {
+      "source": "PERSON_Pinjore_Garden",
+      "target": "NORP_Indian",
+      "type": "location",
+      "sentence": "After breakfast checkout and proceed to visit Pinjore Garden also known as Yadavindra Gardens, is a \nhistoric 17th century garden located in Pinjore city of Panchkula district in the Indian state of Haryana."
+    },
+    {
+      "source": "PERSON_Pinjore_Garden",
+      "target": "GPE_Haryana",
+      "type": "location",
+      "sentence": "After breakfast checkout and proceed to visit Pinjore Garden also known as Yadavindra Gardens, is a \nhistoric 17th century garden located in Pinjore city of Panchkula district in the Indian state of Haryana."
+    },
+    {
+      "source": "GPE_Yadavindra_Gardens",
+      "target": "GPE_Pinjore",
+      "type": "location",
+      "sentence": "After breakfast checkout and proceed to visit Pinjore Garden also known as Yadavindra Gardens, is a \nhistoric 17th century garden located in Pinjore city of Panchkula district in the Indian state of Haryana."
+    },
+    {
+      "source": "GPE_Yadavindra_Gardens",
+      "target": "GPE_Panchkula",
+      "type": "location",
+      "sentence": "After breakfast checkout and proceed to visit Pinjore Garden also known as Yadavindra Gardens, is a \nhistoric 17th century garden located in Pinjore city of Panchkula district in the Indian state of Haryana."
+    },
+    {
+      "source": "GPE_Yadavindra_Gardens",
+      "target": "NORP_Indian",
+      "type": "location",
+      "sentence": "After breakfast checkout and proceed to visit Pinjore Garden also known as Yadavindra Gardens, is a \nhistoric 17th century garden located in Pinjore city of Panchkula district in the Indian state of Haryana."
+    },
+    {
+      "source": "GPE_Yadavindra_Gardens",
+      "target": "GPE_Haryana",
+      "type": "location",
+      "sentence": "After breakfast checkout and proceed to visit Pinjore Garden also known as Yadavindra Gardens, is a \nhistoric 17th century garden located in Pinjore city of Panchkula district in the Indian state of Haryana."
+    }
+  ]
+}

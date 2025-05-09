@@ -4,6 +4,7 @@ import json
 import spacy
 from sentence_transformers import SentenceTransformer, util
 from rdflib import Graph
+from rdflib.namespace import RDFS
 # import numpy as np
 # from collections import defaultdict
 
@@ -29,8 +30,18 @@ class NLQueryProcessor:
             print("Error loading sentece transformer")
             return 
         
-        self.kg_labels = [str(o) for s, p, o in self.graph.triples((None, None, None)) if isinstance(o, str)]
-        # print(self.kg_labels)
+        
+        self.unique_labels = set()
+
+        for s, p, o in self.graph.triples((None, None, None)):
+            s_label = self.get_label(self.graph, s)
+            o_label = self.get_label(self.graph, o)
+            # print(f"Subject: {s_label}, Object: {o_label}")
+            self.unique_labels.add(s_label)
+            self.unique_labels.add(o_label)
+        
+        self.kg_labels = list(self.unique_labels)
+        # print("Labels from query processor ",self.kg_labels)
         self.kg_label_embeddings = self.sentence_model.encode(self.kg_labels, convert_to_tensor=True)
 
         # Template SPARQL queries
@@ -93,7 +104,11 @@ class NLQueryProcessor:
         if os.path.exists(entity_cache_file):
             with open(entity_cache_file, 'r') as f:
                 self.entity_cache = json.load(f)
-    
+
+    def get_label(self,graph, node):
+        label = graph.value(node, RDFS.label)
+        return str(label) if label else ""
+
     def update_entity_cache(self, entities, cache_file=None):
         """Update the entity cache with new entities"""
 
@@ -120,6 +135,8 @@ class NLQueryProcessor:
     def get_similar_kg_label(self, query_text, top_k=1):
         query_embedding = self.sentence_model.encode(query_text, convert_to_tensor=True)
         hits = util.semantic_search(query_embedding, self.kg_label_embeddings, top_k=top_k)[0]
+        # print(query_text, "\n")
+        # print([self.kg_labels[hit['corpus_id']] for hit in hits])
         return [self.kg_labels[hit['corpus_id']] for hit in hits]
 
     def extract_question_type(self, question):
@@ -191,7 +208,7 @@ class NLQueryProcessor:
         else:
             # Extract all named entities from question
             entities = [ent.text for ent in doc.ents]
-            print("Entities in the question : ",entities)
+            # print("Entities in the question : ",entities)
             if entities:
                 return self.query_templates["find_entity"].format(entities[0])
             else:
@@ -222,7 +239,7 @@ if __name__ == "__main__":
     
     # Test with some example questions
     test_questions = [
-        "what is relation between shimla and solan?"
+        "Give me Dharamshala Full Days City Tour."
     ]
     
     for question in test_questions:

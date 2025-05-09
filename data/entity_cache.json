@@ -18,5 +18,85 @@
   "1981": {
     "uri": "http://example.org/date/DATE_1981",
     "type": ""
+  },
+  "best time to visit": {
+    "uri": "http://example.org/WORK_OF_ART/WORK_OF_ART_Best_Time_to_Visit",
+    "type": ""
+  },
+  "kullu dussehra": {
+    "uri": "http://example.org/PERSON/PERSON_Kullu_Dussehra",
+    "type": ""
+  },
+  "khajjiar": {
+    "uri": "http://example.org/FAC/FAC_Khajjiar",
+    "type": ""
+  },
+  "bhagsunag waterfall": {
+    "uri": "http://example.org/PERSON/PERSON_Bhagsunag_Waterfall",
+    "type": ""
+  },
+  "solang valley": {
+    "uri": "http://example.org/LOC/LOC_Solang_Valley",
+    "type": ""
+  },
+  "kalatop wildlife sanctuary": {
+    "uri": "http://example.org/LOC/LOC_Kalatop_Wildlife_Sanctuary",
+    "type": ""
+  },
+  "tibetan": {
+    "uri": "http://example.org/NORP/NORP_Tibetan",
+    "type": ""
+  },
+  "triund trek": {
+    "uri": "http://example.org/PERSON/PERSON_Triund_Trek",
+    "type": ""
+  },
+  "pin valley national": {
+    "uri": "http://example.org/LOC/LOC_Pin_Valley_National",
+    "type": ""
+  },
+  "hidimba": {
+    "uri": "http://example.org/PERSON/PERSON_Hidimba",
+    "type": ""
+  },
+  "sunset point": {
+    "uri": "http://example.org/LOC/LOC_Sunset_Point",
+    "type": ""
+  },
+  "dalhousie": {
+    "uri": "http://example.org/ORG/ORG_Dalhousie",
+    "type": ""
+  },
+  "chandratal lake": {
+    "uri": "http://example.org/LOC/LOC_Chandratal_Lake",
+    "type": ""
+  },
+  "dainkund peak": {
+    "uri": "http://example.org/GPE/GPE_Dainkund_Peak",
+    "type": ""
+  },
+  "spiti\nvalley": {
+    "uri": "http://example.org/LOC/LOC_Spiti_Valley",
+    "type": ""
+  },
+  "rohtang pass": {
+    "uri": "http://example.org/GPE/GPE_Rohtang_Pass",
+    "type": ""
+  },
+  "monkey point": {
+    "uri": "http://example.org/LOC/LOC_Monkey_Point",
+    "type": ""
+  },
+  "mc leodgunj": {
+    "uri": "http://example.org/ORG/ORG_Mc_Leodgunj",
+    "type": ""
+  },
+  "baijnath": {
+    "uri": "http://example.org/PERSON/PERSON_Baijnath",
+    "type": ""
+  },
+  "kangra": {
+    "uri": "http://example.org/LOC/LOC_Kangra",
+    "type": ""
   }
 }

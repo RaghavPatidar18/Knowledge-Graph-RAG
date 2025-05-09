@@ -19,6 +19,7 @@ prompt_template = ChatPromptTemplate.from_template(
 
     Now anwser the following question:
     Question: {question}
+    The context is related to the answer of question only.
     Answer in a concise and informative manner considering the context. Do not make assumption.
     And DO NOT reply starting with the unessesary information make it to the point and also in interesting way.
     """

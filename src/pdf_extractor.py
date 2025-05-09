@@ -10,6 +10,9 @@ base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 class PDFKnowledgeExtractor:
     def __init__(self, models_dir="models"):
+
+        self.relation_threshold = 0.3
+
         # Load SpaCy model for NER (Named Entity Recognition)
 
         try:
@@ -25,37 +28,38 @@ class PDFKnowledgeExtractor:
             print("Downloading SpaCy model...")
             os.system("python -m spacy download en_core_web_lg")
             self.nlp = spacy.load("en_core_web_lg")
+
+        self.known_relations = self.load_known_relations()
+        self.known_relation_embeddings = {
+            rel: self.model.encode(rel, convert_to_tensor=True) for rel in self.known_relations
+        }
     
-    def load_known_relations(ontology_path=None):
+    def load_known_relations(self,ontology_path=None):
 
         ontology_path = os.path.join(base_dir, "ontology/travel_ontology.ttl")
         g = Graph()
         g.parse(ontology_path, format="turtle")
 
         known_relations = set()
+        
         for s, p, o in g.triples((None, None, None)):
             if str(p).endswith("domain"):  
+                # print(s,p,o)
                 relation = str(s).split('#')[-1]  # Get property name
                 known_relations.add(relation)
-        print(known_relations)
+        # print(known_relations)
         return known_relations
 
-    def find_closest_relation(self, relation_candidate, known_relations, threshold=0.3):
-        candidate_embedding = self.model.encode(relation_candidate, convert_to_tensor=True)
-        best_match = None
-        highest_score = 0
+    def find_closest_relation(self, candidate):
+        candidate_embedding = self.model.encode(candidate, convert_to_tensor=True)
+        best_match, highest_score = None, 0
 
-        for rel in known_relations:
-            rel_embedding = self.model.encode(rel, convert_to_tensor=True)
-            similarity = util.pytorch_cos_sim(candidate_embedding, rel_embedding).item()
+        for rel, rel_embedding in self.known_relation_embeddings.items():
+            score = util.pytorch_cos_sim(candidate_embedding, rel_embedding).item()
+            if score > highest_score:
+                best_match, highest_score = rel, score
 
-            if similarity > highest_score:
-                best_match = rel
-                highest_score = similarity
-
-        if highest_score >= threshold:
-            return best_match, highest_score
-        return None, highest_score
+        return (best_match, highest_score) if highest_score >= self.relation_threshold else (None, highest_score)
 
     def extract_text_from_pdf(self, pdf_path):
         """Extract text from PDF file"""
@@ -79,18 +83,25 @@ class PDFKnowledgeExtractor:
         text = re.sub(r'[^\w\s\.\,\;\:\(\)\[\]\{\}\"\'\-]', '', text)
         return text
     
+    def sanitize_uri(self ,text):
+        return re.sub(r'\W+', '_', text.strip())
+
     def extract_entities_and_relations(self, text):
         """Extract entities and potential relationships from text"""
         # Process with SpaCy
         doc = self.nlp(text)
-        
-        # Get ontology relations
-        known_relations = self.load_known_relations()
+        entities = {}
+        relations = []
 
         # Extract entities
-        entities = {}
+        
+        allowed_entity_types = {"ORG", "GPE", "LOC", "PERSON", "PRODUCT", "FAC", "EVENT", "WORK_OF_ART", "LAW", "NORP"}
+
+
         for ent in doc.ents:
-            entity_id = f"{ent.label_}_{ent.text.replace(' ', '_')}"
+            if ent.label_ not in allowed_entity_types:
+                continue
+            entity_id = f"{ent.label_}_{self.sanitize_uri(ent.text)}"
             entities[entity_id] = {
                 "text": ent.text,
                 "type": ent.label_,
@@ -99,24 +110,32 @@ class PDFKnowledgeExtractor:
             }
         
         # Extract potential relationships
-        relations = []
-        sentences = list(doc.sents)
         
+        sentences = list(doc.sents)
+        # print(sentences)
         for sent in sentences:
-            sent_entities = [ent for ent in doc.ents if ent.start >= sent.start and ent.end <= sent.end]
-            
+            print(sent,"\n")
+            allowed_entity_types = {"ORG", "GPE", "LOC", "PERSON", "PRODUCT", "FAC", "EVENT", "WORK_OF_ART", "LAW", "NORP"}
+            sent_entities = [
+                ent for ent in doc.ents 
+                if ent.start >= sent.start and ent.end <= sent.end and ent.label_ in allowed_entity_types
+            ]
+
+            # print(sent_entities)
             if len(sent_entities) >= 2:
                 for i, entity1 in enumerate(sent_entities[:-1]):
                     for entity2 in sent_entities[i+1:]:
-                        # Find verbs or prepositions between entities
+                        
                         between_tokens = [token for token in doc if entity1.end <= token.i < entity2.start]
+                        # print("Entity 1 " , entity1 ,"Entity 2 ", entity2, "between tokens" , between_tokens)
                         verbs = [token.lemma_ for token in between_tokens if token.pos_ == "VERB"]
                         
                         relation_type = "related_to"
                         if verbs:
+                            # print(print("Entity 1 " , entity1 ,"Entity 2 ", entity2, "between tokens" , verbs))
                             relation_type = "_".join(verbs)
                         
-                        match, score = self.find_closest_relation(relation_type, known_relations)
+                        match, score = self.find_closest_relation(relation_type)
                         if match:
                             relation_type = match
                             entity1_id = f"{entity1.label_}_{entity1.text.replace(' ', '_')}"
@@ -128,8 +147,8 @@ class PDFKnowledgeExtractor:
                                 "type": relation_type,
                                 "sentence": sent.text
                             })
-                        else :
-                            print(f"Unknown relation: {relation_type} (score: {score:.2f})")
+                        # else :
+                        #     print(f"Unknown relation: {relation_type} (score: {score:.2f})")
                         
         
         return {
@@ -149,7 +168,7 @@ class PDFKnowledgeExtractor:
             return None
         
         # Preprocess text
-        text = self.preprocess_text(text)
+        # text = self.preprocess_text(text)
         
         # Extract entities and relations
         knowledge = self.extract_entities_and_relations(text)
@@ -199,10 +218,5 @@ class PDFKnowledgeExtractor:
 if __name__ == "__main__":
     extractor = PDFKnowledgeExtractor()
 
-    # extractor.load_known_relations()
-    
-    # Process a single PDF
-    # extractor.process_pdf("data/pdfs/example.pdf")
-    
     # Process all PDFs in directory
     extractor.process_directory()
